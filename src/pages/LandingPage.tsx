@@ -125,7 +125,7 @@ export default function LandingPage({ onGetStarted, onNavigate }: LandingPagePro
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3">
-              <img src="/favicon.svg" alt="Subastas IA Pro" className="h-12 w-auto object-contain" />
+              <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="Subastas IA Pro" className="h-12 w-auto object-contain" />
               <h1 className="text-2xl font-bold bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent">
                 Subastas IA Pro
               </h1>
@@ -568,7 +568,7 @@ export default function LandingPage({ onGetStarted, onNavigate }: LandingPagePro
         <div className="max-w-6xl mx-auto">
           <div className="text-center">
             <div className="flex items-center justify-center space-x-3 mb-4 sm:mb-6">
-              <img src="/favicon.svg" alt="Subastas IA" className="h-10 w-auto object-contain" />
+              <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="Subastas IA" className="h-10 w-auto object-contain" />
               <h4 className="text-xl sm:text-2xl font-bold text-white">SubastasIA</h4>
             </div>
             
